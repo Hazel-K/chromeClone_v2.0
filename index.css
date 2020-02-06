@@ -17,3 +17,4 @@ h1 {
 .showing {
     display: block;
 }
+/* class가 showing인 태그의 표시 형식을 block으로 하자. */
