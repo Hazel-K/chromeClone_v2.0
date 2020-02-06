@@ -10,6 +10,7 @@ const form = document.querySelector(".js-form"),
 
 const USER_LS = "currentUser",
     SHOWING_ON = "showing";
+
 // 상수 USER_LS와 SHOWING_ON을 지정한다.
 // 상수 USER_LS는 currentUser이다.
 // 상수 SHOWING_ON은 showing이다.
@@ -18,7 +19,7 @@ function saveName(text) {
     localStorage.setItem(USER_LS, text);
 }
 // 함수 savName을 지정한다.
-// USER_LS의 텍스트를 localStorage의 데이터로서 세팅한다.
+// USER_LS와 텍스트를 localStorage의 데이터로서 세팅한다.
 
 function handleSubmit(event) {
     event.preventDefault();
