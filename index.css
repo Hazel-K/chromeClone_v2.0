@@ -1,0 +1,19 @@
+body {
+    background-color: #ecf0f1;
+}
+/* 전체 body의 배경 색은 #ecf0f1이다. */
+
+h1 {
+    color: #34495e;
+}
+/* 모든 h1의 글자 색은 #34495e 이다. */
+
+.form,
+.greetings {
+    display: none;
+}
+/* class가 form, greetings인 태그를 표시하지 말자. */
+
+.showing {
+    display: block;
+}

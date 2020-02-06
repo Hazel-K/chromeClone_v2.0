@@ -3,14 +3,28 @@
 
     <head>
         <title>Somthing</title>
+        <!-- 웹 사이트의 이름은 Something 이다. -->
         <link rel="stylesheet" href="index.css">
+        <!-- stylesheet로서 index.css를 연결시키겠다. -->
     </head>
+    <!-- head는 html 내용상에 나오지 않는 meta데이터를 설정한다. -->
 
     <body>
         <div class="js-clock">
             <h1>00:00</h1>
+            <!-- h1 크기에 해당하는 텍스트를 출력. -->
         </div>
+        <!-- 비구조적 태그. 가상의 레이아웃을 구분짓는 단순한 기능 -->
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?"/>
+            <!-- 입력 창 지정, 입력될 내용의 양식은 text이고, 기본적으로 What is your name? 이라는 문자가 출력되게 한다. -->
+        </form>
+        <!-- 입력 양식을 의미한다. -->
+        <h4 class="js-greetings grettings"></h4>
         <script src="clock.js"></script>
+        <script src="gretting.js"></script>
+        <!-- JS를 불러오는 1차적인 방법. 코드 전체를 해석하여 위에서부터 실행한다. -->
     </body>
+    <!-- body는 html 내용상에 표시되는 것들을 설정한다. -->
 
 </html>
