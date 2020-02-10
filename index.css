@@ -1,22 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
 body {
     background-color: #2C3e50;
 }
 /* 전체 body의 배경 색은 #2C3e50이다. */
 
+.sex__child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 h1 {
+    margin: 0px;
+    font-size: 100px;
     color: #f5f6fa;
 }
 /* 모든 h1의 글자 색은 #f5f6fa 이다. */
 
 h4 {
+    margin: 10px 0px;
+    font-size: 30px;
     color: #f5f6fa;
 }
 /* 모든 h4의 글자 색은 #f5f6fa 이다. */
 
 ul {
+    font-size: 30px;
     color: #f5f6fa;
 }
 /* 모든 ul의 글자 색은 #f5f6fa 이다. */
+
+.js-weather {
+    color: #f5f6fa;
+}
+/* 모든 js-weather의 글자 색은 #f5f6fa 이다. */
 
 .form,
 .greetings {
