@@ -10,7 +10,6 @@ const form = document.querySelector(".js-form"),
 
 const USER_LS = "currentUser",
     SHOWING_ON = "showing";
-
 // 상수 USER_LS와 SHOWING_ON을 지정한다.
 // 상수 USER_LS는 currentUser이다.
 // 상수 SHOWING_ON은 showing이다.

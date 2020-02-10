@@ -1,12 +1,22 @@
 body {
-    background-color: #ecf0f1;
+    background-color: #2C3e50;
 }
-/* 전체 body의 배경 색은 #ecf0f1이다. */
+/* 전체 body의 배경 색은 #2C3e50이다. */
 
 h1 {
-    color: #34495e;
+    color: #f5f6fa;
 }
-/* 모든 h1의 글자 색은 #34495e 이다. */
+/* 모든 h1의 글자 색은 #f5f6fa 이다. */
+
+h4 {
+    color: #f5f6fa;
+}
+/* 모든 h4의 글자 색은 #f5f6fa 이다. */
+
+ul {
+    color: #f5f6fa;
+}
+/* 모든 ul의 글자 색은 #f5f6fa 이다. */
 
 .form,
 .greetings {
@@ -18,3 +28,22 @@ h1 {
     display: block;
 }
 /* class가 showing인 태그의 표시 형식을 block으로 하자. */
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
